@@ -1,7 +1,7 @@
 if exist test.lua (  
 	del  gp.script
 	luac.exe -s -o gp.script.tmp test.lua
-	gpatc.exe -genenc -encfilein=gp.script.tmp -encfileout=gp.script
+	gpat.exe -genenc -encfilein=gp.script.tmp -encfileout=gp.script
 	del gp.script.tmp
 	del test.lua
 ) else (  
