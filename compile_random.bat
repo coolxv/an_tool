@@ -15,3 +15,4 @@ if exist test.conf (
 ) else (  
 	echo "not exist test.conf"         
 ) 
+pause
