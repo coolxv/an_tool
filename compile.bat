@@ -8,10 +8,4 @@ if exist test.lua (
 	echo "not exist test.lua"         
 
 )  
-if exist test.conf (  
-	del  gp.conf
-	copy /y test.conf gp.conf
-) else (  
-	echo "not exist test.conf"         
-) 
 pause
